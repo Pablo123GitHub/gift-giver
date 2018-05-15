@@ -18,7 +18,9 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <Gift />,
+        <h2>
+           Gift Giver 
+</h2>,
         <div
           className="gift-list"
 >
@@ -42,11 +44,13 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
-        "props": Object {},
+        "nodeType": "host",
+        "props": Object {
+          "children": " Gift Giver ",
+        },
         "ref": null,
-        "rendered": null,
-        "type": [Function],
+        "rendered": " Gift Giver ",
+        "type": "h2",
       },
       Object {
         "instance": null,
@@ -88,7 +92,9 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <Gift />,
+          <h2>
+             Gift Giver 
+</h2>,
           <div
             className="gift-list"
 >
@@ -112,11 +118,13 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
-          "props": Object {},
+          "nodeType": "host",
+          "props": Object {
+            "children": " Gift Giver ",
+          },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "rendered": " Gift Giver ",
+          "type": "h2",
         },
         Object {
           "instance": null,
