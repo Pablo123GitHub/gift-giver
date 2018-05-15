@@ -12,6 +12,7 @@ class App extends Component {
 
     }
 
+
     addGift = ()=>{
         const { gifts } = this.state;
 
@@ -34,8 +35,6 @@ class App extends Component {
                         this.state.gifts.map(gift => {
                             return (
                                 <Gift key={gift.id}/>
-
-
                             )
                         })
                     }

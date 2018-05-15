@@ -36,6 +36,10 @@ describe('when clicking the `add-gift` button', ()=>{
         expect(app.find('.gift-list').children().length).toEqual(1);
 
     });
+    it('creates a Gift Component THIS TEST IS NOT WORKING', ()=>{
+        expect(app.find('Gift').exists()).toBe(true);
+    });
+
 });
 
 

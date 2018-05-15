@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { shallow , mount} from 'enzyme';
 import Gift from './Gift';
 import App from './App';
 
@@ -42,16 +42,6 @@ describe('Gift', ()=>{
        it('updates the present in our state', ()=>{
            expect(gift.state().present).toEqual(present);
        });
-
-       // it('creates a Gift Component THIS TEST IS NOT WORKING', ()=>{
-       //     let app = shallow(<App/>);
-       //     expect(app.find('Gift').exists()).toBe(true);
-       // });
-
-
-
-
-
 
    });
 });
