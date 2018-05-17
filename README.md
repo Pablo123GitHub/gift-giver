@@ -16,6 +16,17 @@ npm start
 ```
 The project should run on your localhost:3000 browser.
 
+## Run the test
+
+From the root directory go to Terminal, and then run :
+
+```
+npm test
+```
+
+the Screen will show the suite of tests set up for this app.
+
+The very first test one is a snapshot test, and you can update the tests by pressing the `u` key. It should then go green. For more details on the tests visit src/components/App.test.js.
 
 ## Credits
 
