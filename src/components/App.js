@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Button } from 'react-bootstrap';
 import Gift from './Gift';
+import { max_number} from "../helper";
+import '../index.css';
 
 class App extends Component {
     constructor(){
@@ -9,16 +11,14 @@ class App extends Component {
         this.state = {
             gifts: []
         }
-
     }
-
 
     addGift = ()=>{
         const { gifts } = this.state;
 
         const ids = this.state.gifts.map(gift => gift.id);
 
-        const max_id = ids.length > 0 ? Math.max(...ids) : 0;
+        const max_id = max_number(ids);
 
         gifts.push({id: max_id +1 });
 
@@ -34,7 +34,7 @@ class App extends Component {
 
     render(){
         return(
-            <div>
+            <div className='gift'>
                 <h2> Gift Giver </h2>
                 <div className='gift-list'>
                     {
